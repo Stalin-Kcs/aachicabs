@@ -1,13 +1,135 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <title>Aachicabs</title>
-  <base href="/">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Welcome to Drive Bazaar</title>
+  <base href="/">
+  <!-- Standard Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+
+  <!-- For iPhone 4 Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114"
+    href="assets/images/apple-touch-icon-114x114-precomposed.png">
+
+  <!-- For iPad: -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/apple-touch-icon-72x72-precomposed.png">
+
+  <!-- For iPhone: -->
+  <link rel="apple-touch-icon-precomposed" href="assets/images/apple-touch-icon-57x5c7-precomposed.png">
+
+  <!-- Library - Loader CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/libraries/loader/loaders.min.css">
+
+  <!-- Library - Google Font Familys -->
+  <link
+    href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
+    rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700,700italic'
+    rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link
+    href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic'
+    rel='stylesheet' type='text/css'>
+  <link
+    href='https://fonts.googleapis.com/css?family=Lato:400,100italic,100,300,300italic,400italic,700,700italic,900,900italic'
+    rel='stylesheet' type='text/css'>
+
+  <!-- Library - Bootstrap v3.3.5 -->
+  <link rel="stylesheet" type="text/css" href="assets/libraries/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/libraries/bootstrap/bootstrap-datetimepicker.min.css">
+
+  <!-- Font Icons -->
+  <link rel="stylesheet" type="text/css" href="assets/libraries/fonts/font-awesome.min.css">
+
+  <!-- Library - OWL Carousel V.2.0 beta -->
+  <link rel="stylesheet" type="text/css" href="assets/libraries/owl-carousel/owl.carousel.css">
+  <link rel="stylesheet" type="text/css" href="assets/libraries/owl-carousel/owl.theme.css">
+
+  <!-- Library - FlexSlider v2.5.0 -->
+  <link rel="stylesheet" type="text/css" href="assets/libraries/flexslider/flexslider.css">
+
+  <!-- Library - Animate CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/libraries/animate/animate.min.css">
+
+  <!-- Custom - Common CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/navigation-menu.css">
+
+  <!-- Custom - Theme CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/shortcodes.css">
+  <!--Slider-->
+  <!-- Start WOWSlider.com HEAD section -->
+  <!-- add to the <head> of your page -->
+  <link rel="stylesheet" type="text/css" href="assets/engine-1/style.css" />
+  <!--[if lt IE 9]>
+		<script src="assets/js/html5/respond.min.js"></script>
+    <![endif]-->
+  <script type="text/javascript" src="assets/engine-1/jquery.js"></script>
 </head>
-<body>
-  <app-root></app-root>
+
+<body data-offset="200" data-spy="scroll" data-target=".ow-navigation">
+  <!-- Loader -->
+  <div id="site-loader" class="load-complete">
+    <div class="loader">
+      <div class="loader-inner ball-clip-rotate">
+        <div></div>
+      </div>
+    </div>
+  </div><!-- Loader /- -->
+
+  <a id="top"></a>
+  <!-- Main Container -->
+  <div class="main-container">
+    <!-- Header -->
+    <style>
+      @font-face {
+        font-family: lgfont;
+        src: url("../fonts/LG Smart Bold.ttf");
+      }
+    </style>
+    <app-root></app-root>
+    <!-- JQuery v1.11.3 -->
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!-- Library - Modernizer -->
+    <script src="assets/libraries/modernizr/modernizr.js"></script>
+
+    <!-- Library - Bootstrap v3.3.5 -->
+    <script src="assets/libraries/bootstrap/bootstrap.min.js"></script><!-- Bootstrap JS File v3.3.5 -->
+    <script src="assets/libraries/bootstrap/bootstrap-datetimepicker.min.js"></script><!-- Bootstrap JS File v3.3.5 -->
+
+    <!-- jQuery Easing v1.3 -->
+    <script src="assets/js/jquery.easing.min.js"></script>
+
+    <!-- Library - jQuery.appear -->
+    <script src="assets/libraries/appear/jquery.appear.js"></script>
+
+    <!-- Library - OWL Carousel V.2.0 beta -->
+    <script src="assets/libraries/owl-carousel/owl.carousel.min.js"></script>
+
+    <!-- jQuery For Number Counter -->
+    <script src="assets/libraries/number/jquery.animateNumber.min.js"></script>
+
+    <!-- Library - Google Map API -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+    <!-- Library - FlexSlider v2.5.0 -->
+    <script defer src="assets/libraries/flexslider/jquery.flexslider.js"></script>
+
+    <!-- Library - Theme JS -->
+    <script src="assets/js/functions.js"></script>
+    <script type="text/javascript" src="assets/engine-1/wowslider.js"></script>
+    <script type="text/javascript" src="assets/engine-1/script.js"></script>
 </body>
+
 </html>
